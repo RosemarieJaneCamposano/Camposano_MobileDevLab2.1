@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF"
+    android:paddingTop="28dp"
+    android:paddingBottom="12dp">
+
+    <!-- Question -->
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:accessibilityLiveRegion="polite"
+        android:text="@string/question_largest_planet"
+        android:textColor="#292929"
+        android:textSize="21sp"
+        android:textStyle="bold" />
+
+    <!-- Mercury -->
+    <Button
+        android:id="@+id/mercuryButton"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#7200FF"
+        android:minWidth="0dp"
+        android:minHeight="48dp"
+        android:text="@string/mercury"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <!-- Venus -->
+    <Button
+        android:id="@+id/venusButton"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#7200FF"
+        android:minWidth="0dp"
+        android:minHeight="48dp"
+        android:text="@string/venus"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <!-- Earth -->
+    <Button
+        android:id="@+id/earthButton"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#7200FF"
+        android:minWidth="0dp"
+        android:minHeight="48dp"
+        android:text="@string/earth"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <!-- Mars -->
+    <Button
+        android:id="@+id/marsButton"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#7200FF"
+        android:minWidth="0dp"
+        android:minHeight="48dp"
+        android:text="@string/mars"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <!-- Jupiter -->
+    <Button
+        android:id="@+id/jupiterButton"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#7200FF"
+        android:minWidth="0dp"
+        android:minHeight="48dp"
+        android:text="@string/jupiter"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <!-- Saturn -->
+    <Button
+        android:id="@+id/saturnButton"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#7200FF"
+        android:minWidth="0dp"
+        android:minHeight="48dp"
+        android:text="@string/saturn"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <!-- Uranus -->
+    <Button
+        android:id="@+id/uranusButton"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="14dp"
+        android:backgroundTint="#7200FF"
+        android:minWidth="0dp"
+        android:minHeight="48dp"
+        android:text="@string/uranus"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <!-- Neptune -->
+    <Button
+        android:id="@+id/neptuneButton"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#7200FF"
+        android:minWidth="0dp"
+        android:minHeight="48dp"
+        android:text="@string/neptune"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+</LinearLayout>
